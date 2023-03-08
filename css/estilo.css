@@ -3,35 +3,30 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
+    text-align: center;
 }
 
 body{
-    /* width: 100%;
-    right: 100%; */
+    width: 100%;
+    right: 100%; 
 }
-.logo{
-    width: 20%;
-    right: 10%;
-    margin-left: 13%;
-}
-.topo{
-    display: flex;
-    /* justify-content: space-between; */
-}
-.links{
-    display: flex;
-    list-style-type: none; 
-    font-size: 15px;
-}
-a{
-    cursor: pointer;
-    margin-left: 15%;
-    padding: 10px;
+header{
     text-align: center;
 
 }
+#logo{
+    width: 20%;
+    padding-right: 10%;
+}
+a{
+    margin: 20px;
+    text-decoration: none;
+    
+}
 a:hover{
     background-color: silver;
-    border-radius: 30px;
-    
+    border-radius: 10px;
+}
+hr{
+    box-shadow: 2px 1px 0px black;
 }
