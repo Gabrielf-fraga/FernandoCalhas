@@ -7,8 +7,9 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0px;
   margin: 0px;
+  /* width: 100%;
+  right: 100%; */
 }
-
 :root{
   --fonte1: 'Passion one', cursive;
   --fonte2: 'Sriracha', cursive;
@@ -18,51 +19,51 @@
   --cor4: gray;
   --cor5: ;
 }
-
-
-nav > a {
-  color: darkblue;
-  text-decoration: none;
-  position: relative;
-  left: 60vw;
-  line-height: 20px;
-  margin-bottom: 10px;
-}
-#logoF{
+.logo{
     width: 20%;
-    right: 20%;
-    margin-left: 10%;
+    right: 10%;
+    margin-left: 15%;
+    margin-right: 10%;
     margin-top: 1%;
+    margin-bottom: 1%;
 }
-
-html, body {
-  width: 100vw;
+.topo{
+    display: flex;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px;
 }
-
-header > h1 {
-  fonte-family: var(--fonte2);
-  font-variant: small-caps;
-  font-size: 7vw;
-  color: var(--cor4);
-  text-shadow: 2px 1px 1px var(--cor1);
-  padding: 70px 10px 40px 30px;
-  margin: auto;
+.links{
+    display: flex;
+    list-style-type: none; 
+    font-size: 15px;
 }
-
-
-input {
-  background-color:yellow;
-  position: relative;
-  left: 5%;
-  width: 90%;
-  border-radius: 5px;
-  height: 40px;
-  font-family: var(--fonte1);
-  font-size: 150%;
-  color: darkblue;
+a{
+    cursor: pointer;
+    margin-left: 15%;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10%;
 }
-input:hover {
-    background-color: darkblue;
-    color: yellow;
-    transition-duration: 0.6;
+/* formatando titulo da pagina */
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 25px;
   }
+  .separator::before,
+  .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2px solid #000;
+  }
+  .separator::before {
+    margin-right: .25em;
+  }
+  .separator::after {
+    margin-left: .25em;
+  }
+
+
+
