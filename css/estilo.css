@@ -20,22 +20,20 @@
   --cor5: ;
 }
 .logo{
-    width: 20%;
-    right: 10%;
-    margin-left: 15%;
-    margin-right: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    height: 105px;
+    width: 290px;
 }
 .topo{
     display: flex;
-    background-color: whitesmoke;
-    box-shadow: 1px 1px 1px;
+    width: 100%;
+    background-color: rgb(219, 219, 219);
 }
 .links{
     display: flex;
     list-style-type: none; 
     font-size: 15px;
+    margin: auto;
+    margin-right: 30%;
 }
 a{
     cursor: pointer;
@@ -66,4 +64,24 @@ a{
   }
 
 
+  /*coloco uma mensagem depois aqui preguiça*/
 
+.lista {
+  display:flex; 
+  margin:auto; 
+  width: 1125px; 
+  margin-top: 50px;
+}
+
+.lista-item {
+  width:175px; 
+  height:325px; 
+  margin-left: 25px; 
+  margin-right: 25px
+}
+
+.lista-img {
+  width:175px; 
+  height:175px; 
+  border-radius: 10px;
+}
