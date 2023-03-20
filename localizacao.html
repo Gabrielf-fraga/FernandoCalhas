@@ -29,19 +29,5 @@
 				</nav>
 		</header>
 		<hr style="height: 0,01%; color:black 0,01% 0,01% 0,01%; opacity: 50%;">
-		<div id="map">
-		</div>
-		<script>
-			var map = L.map('map').setView([-29.936637642023364, -51.019425809648276], 13);
 
-			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-				maxZoom: 19,
-				minZoom: 15,
-				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-			}).addTo(map);
-
-			var marker = L.marker([-29.936637642023364, -51.019425809648276]).addTo(map);
-			marker.bindPopup("<b>Faculdade QI</b>").openPopup();
-		</script>
-		
-
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2055.8329052147783!2d-51.02002945854945!3d-29.936724014878386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951974ae4e88a691%3A0x45bb2ab3e399f2a8!2sFAQI%20-%20Faculdade%20QI%20Brasil%20-%20Gravata%C3%AD!5e0!3m2!1spt-BR!2sbr!4v1679339080384!5m2!1spt-BR!2sbr" width="80%" height="500px" style="border:0; margin-top: 50px; margin-left: 10%; margin-right: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
