@@ -100,7 +100,15 @@ a{
   display: block;
   margin-top: 25px;
   margin-bottom: 25px;
-  background: url(../img/placebanner.jpg) center no-repeat;
+}
+
+#map{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  display: block;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
   /*coloco uma mensagem depois aqui preguiça*/

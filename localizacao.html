@@ -8,13 +8,20 @@
 		<meta name="keywords" content="">
 		<link rel="shortcut icon" href="img/icon.png">
 		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+		integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+		crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+		integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+		crossorigin="">
+		</script>
 	</head>
 	<body class="home">
 		<header class="topo">
 				<img class="logo" src="img/logoF.jpeg" alt="logo Fernando calhas">
 
 				<nav class="links">
-					<button type="button" class="linkbotao">Home</button>
+					<button type="button" class="linkbotao" onclick="window.location.href='index.html';">Home</button>
 					<button type="button" class="linkbotao">Quem Somos</button>
 					<button type="button" class="linkbotao">Serviços</button>
 					<button type="button" class="clickbotao" style="background-color:rgb(182, 182, 182); opacity: 50%;">Localização</button>
@@ -22,7 +29,19 @@
 				</nav>
 		</header>
 		<hr style="height: 0,01%; color:black 0,01% 0,01% 0,01%; opacity: 50%;">
-		<iframe class="banner" style="border:0" loading="lazy" allowfullscreen
-src="https://www.google.com/maps/embed/v1/undefined?origin=...&q=...&destination=...&center=...&zoom=...&key=..."></iframe>
+		<div id="map">
+		</div>
+		<script>
+			var map = L.map('map').setView([-29.936637642023364, -51.019425809648276], 13);
+
+			L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 19,
+				minZoom: 15,
+				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+			}).addTo(map);
+
+			var marker = L.marker([-29.936637642023364, -51.019425809648276]).addTo(map);
+			marker.bindPopup("<b>Faculdade QI</b>").openPopup();
+		</script>
 		
 
