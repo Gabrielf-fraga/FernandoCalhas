@@ -15,17 +15,17 @@
 
 				<nav class="links">
 					<button type="button" class="clickbotao" style="background-color:rgb(182, 182, 182); opacity: 50%;">Home</button>
-					<button type="button" class="linkbotao">Quem Somos</button>
-					<button type="button" class="linkbotao">Serviços</button>
+					<button type="button" class="linkbotao" onclick="window.location.href='#quemsomos';">Quem Somos</button>
+					<button type="button" class="linkbotao" onclick="window.location.href='#galeria';">Serviços</button>
 					<button type="button" class="linkbotao" onclick="window.location.href='localizacao.html';">Localização</button>
-					<button type="button" class="linkbotao">Contato</button>
+					<button type="button" class="linkbotao" onclick="window.location.href='contato.html';">Contato</button>
 				</nav>
 		</header>
 		<hr style="height: 0,01%; color:black 0,01% 0,01% 0,01%; opacity: 50%;">
 		<div class="banner" style="background: url(../img/placebanner.jpg) center no-repeat;">
 
 		</div>
-		<div class="galeria">
+		<div id="galeria">
 			<div class="separator">Funilaria e serviços Gerais em Telhados há mais de 15 anos</div>
 				<div class="lista">
 					<!--linha 1-->
@@ -103,17 +103,31 @@
 				</div>
 			</div>
 			<hr style="border-top: 2px dashed; opacity: 50%; margin: auto; margin-left: 10%; margin-right: 10%;">
-			<div class="quemsomos">
+			<div id="quemsomos">
 				<p style="margin-right: 50px;">
 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate perferendis tempore error, pariatur dolor magnam eveniet deserunt numquam nostrum ad illum assumenda, maiores dignissimos aperiam porro recusandae, ipsa mollitia laudantium! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ipsa ullam aut eius voluptatum! Dolor, placeat dolore? Iure ab veritatis nisi dolore voluptatum omnis deleniti et soluta officiis. In, veritatis? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae explicabo obcaecati quae temporibus. Recusandae provident non dolore odio modi consequatur est maxime! Laudantium, incidunt laborum. Doloribus est doloremque iure numquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident assumenda commodi esse, ipsum quo ea cumque ducimus facilis ipsam! Similique, est. Beatae incidunt illum sint repellendus, ad amet facere optio!</p>
 				<img src="img/placebanner.jpg" width="100%" display="block">
 			</div>
-			<div style="background-color: rgb(165, 165, 165); height: 400px; width: 100%; margin-top: 50px; box-shadow: 1px 1px 1px inset gray;">
-				
-				
-				
+			<div style="background-color: rgb(165, 165, 165); height: 300px; width: 100%; margin-top: 50px; box-shadow: 1px 1px 1px inset gray;">
+				<div style="display:flex; justify-content:space-around; text-align:left">
+					<div style="background-color: rgb(150, 150, 150); border:1px solid rgb(122, 122, 122); border-radius:3px; margin-top:20px;">
+					<h3 style="margin-top:35px; margin-left: 50px;">Horários de Atendimento</h3>
+					<p style="margin-top:10px; margin-left: 50px;">Segunda a Sexta :
+					<br>
+						das 8h às 12h e da 13:30h às 18h
+					<br>	
+						Sábados:
+					<br>	
+						das 8h às 12h</p>
+						<br>
+						<h4 style="margin-top: 10px; margin-left: 50px; margin-right: 70px; margin-bottom:30px">Atendimento na região metropolitana do Rio grande do sul.</h4>
+					</div>
 
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2055.8329052147783!2d-51.02002945854945!3d-29.936724014878386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951974ae4e88a691%3A0x45bb2ab3e399f2a8!2sFAQI%20-%20Faculdade%20QI%20Brasil%20-%20Gravata%C3%AD!5e0!3m2!1spt-BR!2sbr!4v1679339080384!5m2!1spt-BR!2sbr" width="300px" height="200px" style="border:0; margin-top: 50px; margin-left: 10%; margin-right: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
 			</div>
 		</div>
+
+		
 	</body>
 </html>
