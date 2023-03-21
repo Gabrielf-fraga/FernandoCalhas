@@ -133,6 +133,7 @@ a{
   width:175px; 
   height:175px; 
   border-radius: 10px;
+  display: block;
 }
 
 #quemsomos{
