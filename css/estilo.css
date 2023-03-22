@@ -152,6 +152,19 @@ a{
 
 }
 
+@media (max-width:1312px){
+.mapa{ display:none;
+}
+}
+
+.foot{
+  background-color: rgb(165, 165, 165);
+  height: 300px; 
+  width: 100%; 
+  margin-top: 50px; 
+  box-shadow: 1px 1px 1px inset gray;
+}
+
 @media (max-width:942px){
   .lista{
     grid-template-columns: auto auto auto;
@@ -173,6 +186,7 @@ a{
     margin-right: 1%;
     grid-gap: 1px;
   }
+  
 }
 
 
@@ -184,5 +198,67 @@ a{
     margin-left: 0%;
     max-width: 200px;
   }
+}
 
+::placeholder{
+  color:rgb(77, 77, 77);
+  opacity:1;
+}
+
+:-ms-input-placeholder {
+  color: rgb(77, 77, 77);
+}
+
+::-ms-input-placeholder {
+  color: rgb(77, 77, 77);
+}
+
+#nome {
+  height:40px; 
+  width:370px; 
+  font-size:large; 
+  padding-left: 10px;
+  border: 1px solid rgb(100, 100, 100); 
+  background-color: rgb(202, 202, 202); 
+  border-radius:4px;
+}
+
+#endereco {
+  height:40px; 
+  width:370px; 
+  font-size:large; 
+  padding-left: 10px;
+  border: 1px solid rgb(100, 100, 100); 
+  background-color: rgb(202, 202, 202); 
+  border-radius:4px;
+}
+
+#servico {
+  height:40px; 
+  width:170px; 
+  font-size:large; 
+  padding-left: 10px;
+  border: 1px solid rgb(100, 100, 100); 
+  background-color:rgb(202, 202, 202); 
+  border-radius:4px;
+}
+
+#enviar {
+  height:40px; 
+  width:80px; 
+  font-size:large;  
+  background-color: green; 
+  border: none;
+  box-shadow: 1px 1px 4px black;
+  color:white;
+}
+
+#outro{
+  height:40px; 
+  width:195px; 
+  font-size:large; 
+  padding-left: 10px;
+  border: 1px solid rgb(100, 100, 100); 
+  background-color: rgb(202, 202, 202); 
+  border-radius:4px;
 }
