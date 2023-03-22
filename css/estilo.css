@@ -134,6 +134,7 @@ a{
   height:175px; 
   border-radius: 10px;
   display: block;
+  border:1px solid;
 }
 
 #quemsomos{
