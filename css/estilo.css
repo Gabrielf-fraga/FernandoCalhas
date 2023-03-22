@@ -235,11 +235,11 @@ a{
 
 #servico {
   height:40px; 
-  width:170px; 
+  width:370px; 
   font-size:large; 
   padding-left: 10px;
   border: 1px solid rgb(100, 100, 100); 
-  background-color:rgb(202, 202, 202); 
+  background-color: rgb(202, 202, 202); 
   border-radius:4px;
 }
 

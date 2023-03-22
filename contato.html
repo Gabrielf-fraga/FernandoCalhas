@@ -25,24 +25,17 @@
 		<hr style="height: 0,01%; color:black 0,01% 0,01% 0,01%; opacity: 50%;">
 
 
+
 		
-		
-		<form method="post" name="contato" style="margin:auto; width:80%; margin-top:50px" action="" onSubmit="return validate()">
+		<form method="post" name="contato" style="margin:auto; width:80%; margin-top:50px;" action="https://qi.edu.br" onSubmit="return validate()">
 				<h2>Formulário de atendimento</h2>
 				<span style="color: red;">*</span><input id="nome" size="27" type="text" name="txtnome" placeholder="Nome" style="margin-top:50px;">
 				<br>
 				<span style="color: red;">*</span><input id="endereco" size="40" type="text" name="txtendereco" placeholder="Endereço">
 				<br>
 				<br>
-				<span style="color: red;">*</span><select id="servico" name="selectservico" name="servico">
-					<option value="none">Serviço</option>
-					<option value="1">opção 1</option>
-					<option value="2">opção 2</option>
-					<option value="3">opção 3</option>
-					<option value="4">opção 4</option>
-					<option value="outro">Outro:</option>
-				</select>
-				<input type="text" name="txtoutro" id="outro" disabled style="opacity:50%">
+				<span style="color: red;">*</span><input id="servico" size="40" type="text" name="txtservico" placeholder="Descrição do serviço">
+				<p>Ex:.calhas , vazamentos , coifas e etc ...</p>
 				<br><br>
 				<input type="submit" id="enviar" value="Enviar" style="margin-left:300px">
 		</form>
